@@ -14,9 +14,11 @@ const AboutMe = () => {
         for creativity, I'm always ready to assist and provide valuable
         insights.
       </p>
-      <a href="https://github.com/Remmy4873">GitHub</a>
+      <a href="https://github.com/Bethwel123">GitHub</a>
       <br />
-      <a href="https://www.linkedin.com/in/remmy-bett-a25241285/">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/bethwel-langat-3b7b97312">
+        LinkedIn
+      </a>
     </div>
   );
 };

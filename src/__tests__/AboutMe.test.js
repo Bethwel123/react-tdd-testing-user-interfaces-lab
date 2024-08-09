@@ -26,7 +26,7 @@ describe("AboutMe component", () => {
   it("renders a link to GitHub", () => {
     render(<AboutMe />);
     const githubLink = screen.getByRole("link", { name: /GitHub/i });
-    expect(githubLink).toHaveAttribute("href", "https://github.com/Remmy4873");
+    expect(githubLink).toHaveAttribute("href", "https://github.com/Bethwel123");
   });
 
   it("renders a link to LinkedIn", () => {
@@ -34,7 +34,7 @@ describe("AboutMe component", () => {
     const linkedInLink = screen.getByRole("link", { name: /LinkedIn/i });
     expect(linkedInLink).toHaveAttribute(
       "href",
-      "https://www.linkedin.com/in/remmy-bett-a25241285/"
+      "https://www.linkedin.com/in/bethwel-langat-3b7b97312"
     );
   });
 });
