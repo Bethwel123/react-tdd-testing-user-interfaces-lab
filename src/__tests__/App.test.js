@@ -18,12 +18,12 @@ describe("App component", () => {
     expect(paragraph).toBeInTheDocument();
 
     const githubLink = screen.getByRole("link", { name: /GitHub/i });
-    expect(githubLink).toHaveAttribute("href", "https://github.com/Remmy4873");
+    expect(githubLink).toHaveAttribute("href", "https://github.com/Bethwel123");
 
     const linkedInLink = screen.getByRole("link", { name: /LinkedIn/i });
     expect(linkedInLink).toHaveAttribute(
       "href",
-      "https://www.linkedin.com/in/remmy-bett-a25241285/"
+      "https://www.linkedin.com/in/bethwel-langat-3b7b97312"
     );
   });
 });

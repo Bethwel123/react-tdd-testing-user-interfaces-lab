@@ -5,6 +5,7 @@ import "./About.css";
 const AboutMe = () => {
   return (
     <div>
+      paragraph
       <img src={MeImage} alt="A picture of me" />
       <h2>About Me</h2>
       <p>
